@@ -1,0 +1,14 @@
+{
+  "name": "starting-out-fresh",
+  "version": "0.0.1",
+  "description": "Beginner web scraping project",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^7.0.4",
+    "pug": "^3.0.1"
+  }
+}
