@@ -4,12 +4,13 @@
   "author": "x4A6179",
   "description": "Used to scrap yahoo.finance for stock information",
   "scripts": {
-    "start": "writing-tweets.js"
+    "start": "stock-scanner.js"
   },
   "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "cron": "^1.8.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "pug": "^3.0.0",
     "puppeteer": "^7.0.4"
   },
   "repositories": {
