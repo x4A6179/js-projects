@@ -1,0 +1,20 @@
+{
+  "name": "yahoo-finance",
+  "version": "0.0.1",
+  "author": "x4A6179",
+  "description": "Used to scrap yahoo.finance for stock information",
+  "scripts": {
+    "start": "writing-tweets.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "puppeteer": "^7.0.4"
+  },
+  "repositories": {
+    "type": "git",
+    "url": "https://github.com/x4A6179/js-projects.git"
+  },
+  "license": "UNLICENSED"
+}
