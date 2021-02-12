@@ -1,0 +1,22 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "This will be a discord bot that scans stock futures",
+  "main": "index.js",
+  "scripts": {
+    "start": "node disc"
+  },
+  "repositories": {
+    "type": "git",
+    "url": "https://github.com/x4A6179/js-projects.git"
+  },
+  "author": "x4A6179",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.5",
+    "cron": "^1.8.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "puppeteer": "^7.1.0"
+  }
+}
