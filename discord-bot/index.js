@@ -23,18 +23,27 @@ client.once('ready', () => {
   console.log('Ready!');
 });
 
+
+// Handling commands from the users
 client.on('message', message => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
 
   const args = message.content.slice(prefix.length).trim().split(/ +/);
-  const command = args.shift().toLowerCase();
+  const commandName = args.shift().toLowerCase();
 
-  if (!client.commands.has(command)) return;
+  if (!client.commands.has(commandName)) return;
+  const command = client.commands.get(commandName);
+
+  if (command.args && !args.length){
+    let reply = `That's not happening ${message.author}.`;
+
+    if (command.usage){
+      reply += `\nTry doing \`${prefix}${command.name} ${command.usage}\``;
+    }
+    return message.channel.send(reply);
+  }
   try {
-    client.commands.get(command).execute(message, args);
-  } catch (error){
-    console.log(error);
-    message.channel.send(`Now you know you can't do that ${message.author}`);
+    command.execute(message, args);
   }
 });
 
