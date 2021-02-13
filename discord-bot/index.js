@@ -13,7 +13,7 @@ client.commands = new Discord.Collection();
 // Dynamically accessing command files
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
 for (const file in commandFiles){
-  const command = require(`./commands/${file}`);
+  const command = require(`./commands/${commandFiles[file]}`);
   client.commands.set(command.name, command);
 }
 
@@ -44,6 +44,8 @@ client.on('message', message => {
   }
   try {
     command.execute(message, args);
+  } catch (error){
+    console.log(error);
   }
 });
 
