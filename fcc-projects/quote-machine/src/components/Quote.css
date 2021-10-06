@@ -1,0 +1,37 @@
+#quote-box {
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  border: 2px dashed black;
+}
+.quote-text {
+  padding: 5px;
+  background: silver;
+}
+
+.quote-author {
+  background: grey;
+  text-align: right;
+  margin: .5rem;
+}
+#new-quote {
+  border: 2px dashed cyan;
+  display: block;
+  background-color: #506BAF;
+  color: #FFF;
+  border-radius: 2px;
+  padding: 3px 5px;
+  margin: .5em;
+}
+
+#new-quote:hover {
+  background-color: grey;
+  color: black;
+}
+
+#tweet-quote {
+  border: 2px dashed green;
+  display: block;
+  margin: .5em;
+  font-size: 12px Calibri;
+}
