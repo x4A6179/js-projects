@@ -16,6 +16,8 @@
 }
 #new-quote {
   border: 2px dashed cyan;
+  float: right;
+  position: relative;
   display: block;
   background-color: #506BAF;
   color: #FFF;
@@ -31,6 +33,8 @@
 
 #tweet-quote {
   border: 2px dashed green;
+  float: left;
+  position: relative;
   display: block;
   margin: .5em;
   font-size: 12px Calibri;

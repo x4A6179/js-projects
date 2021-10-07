@@ -1,12 +1,16 @@
-//import './App.css';
+import './App.css';
 import Quote from './components/Quote';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <body>
+        <header className="App-header">
+          <Navbar />
+        </header>
         <Quote />
-      </header>
+      </body>
     </div>
   );
 }
