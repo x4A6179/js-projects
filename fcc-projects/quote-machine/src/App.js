@@ -5,12 +5,16 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <div className="App">
-      <body>
+      <div>
         <header className="App-header">
           <Navbar />
         </header>
-        <Quote />
-      </body>
+      </div>
+      <div className='quote-container'>
+        <body>
+          <Quote />
+        </body>
+      </div>
     </div>
   );
 }

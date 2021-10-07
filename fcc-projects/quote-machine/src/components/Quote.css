@@ -2,24 +2,25 @@
   text-align: center;
   margin: auto;
   padding: 10px;
-  border: 2px dashed black;
 }
 .quote-text {
   padding: 5px;
-  background: silver;
+  color: #FFF;
+}
+
+#quote-box {
+  background: linear-gradient(200deg, rgba(88,199,255,1) 40%, rgba(227,99,250,1) 100%);
 }
 
 .quote-author {
-  background: grey;
+  color: #FFF;
   text-align: right;
   margin: .5rem;
 }
 #new-quote {
-  border: 2px dashed cyan;
   float: right;
   position: relative;
   display: block;
-  background-color: #506BAF;
   color: #FFF;
   border-radius: 2px;
   padding: 3px 5px;
@@ -32,7 +33,6 @@
 }
 
 #tweet-quote {
-  border: 2px dashed green;
   float: left;
   position: relative;
   display: block;
