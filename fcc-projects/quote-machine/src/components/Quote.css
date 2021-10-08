@@ -1,21 +1,23 @@
 #quote-box {
   text-align: center;
   margin: auto;
-  padding: 10px;
+  padding: 40px;
 }
 .quote-text {
-  padding: 5px;
+  padding: 10px 5px 5px 5px;
   color: #FFF;
 }
 
 #quote-box {
-  background: linear-gradient(200deg, rgba(88,199,255,1) 40%, rgba(227,99,250,1) 100%);
+  background: linear-gradient(200deg, rgba(179, 149, 183, 1) 40%, rgba(143, 159, 246, 1) 100%);
+  min-width: 350px;
+  min-height: 150px;
 }
 
 .quote-author {
   color: #FFF;
   text-align: right;
-  margin: .5rem;
+  margin: 30px 30px 25px 30px;
 }
 #new-quote {
   float: right;
@@ -24,7 +26,10 @@
   color: #FFF;
   border-radius: 2px;
   padding: 3px 5px;
-  margin: .5em;
+  margin-left: 20px;
+  margin-right: -5px;
+  margin-top: 5px;
+  background-color: transparent;
 }
 
 #new-quote:hover {

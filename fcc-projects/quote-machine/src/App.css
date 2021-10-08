@@ -1,9 +1,10 @@
 .App {
-  background: linear-gradient(30deg, rgba(2, 0, 36, 1) 0%, rgba(134, 222, 254, 1) 45%, rgba(0, 212, 255, 1) 100%);
+  background: rgb(191,248,249);
+  background: radial-gradient(circle, rgba(191,248,249,1) 20%, rgba(179,223,229,1) 58%, rgba(188,242,244,1) 90%);
 }
 .App-header {
-  background-color: #282c34;
-  min-height: 30px;
+  background: linear-gradient(360deg, rgba(179, 149, 183, 1) 40%, rgba(143, 159, 246, 1) 100%);
+  min-height: 6vh;
   display: flex;
   color: white;
 }
@@ -12,7 +13,8 @@
   color: #61dafb;
 }
 .quote-container {
-  min-height: 100vh;
+  min-height: 92vh;
+  min-width: 95vw;
   position: relative;
 }
 .quote-container body {

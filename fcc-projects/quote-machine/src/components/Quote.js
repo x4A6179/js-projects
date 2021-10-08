@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 //import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import './fontawesome';
 import './Quote.css';
 
 const Quote = () => {
@@ -29,7 +31,7 @@ const Quote = () => {
         </div>
         <div className='buttons'>
           <button className='button' id='new-quote' onClick={() => genRandomQuote()}>New Quote</button>
-          <a className='button' id='tweet-quote' target="_blank" href='twitter.com/intent/tweet'>Tweet Quote</a>
+          <a className='button' id='tweet-quote' target="_blank" href='twitter.com/intent/tweet'><FontAwesomeIcon icon='faTwitter'/>Tweet Quote</a>
         </div>
       </div>
     )
