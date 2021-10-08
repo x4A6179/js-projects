@@ -12,6 +12,7 @@
   background: linear-gradient(200deg, rgba(179, 149, 183, 1) 40%, rgba(143, 159, 246, 1) 100%);
   min-width: 350px;
   min-height: 150px;
+  border-radius: 10px;
 }
 
 .quote-author {
