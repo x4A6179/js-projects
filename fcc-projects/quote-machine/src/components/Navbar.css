@@ -34,7 +34,7 @@
 }
 
 .menu {
-  background: rgb(113,113,190);
+  background: #525067;
   border-radius: 8px;
   position: absolute;
   top: 60px;
@@ -50,6 +50,7 @@
   opacity: 1;
   visibility: visible;
   transform: translateY(0);
+  z-index: 2;
 }
 
 .menu ul {
@@ -66,7 +67,7 @@
   text-decoration: none;
   display: block;
   padding: 5px 10px;
-  color: black;
+  color: #b3b2b9;
 }
 
 .menu li a:hover {

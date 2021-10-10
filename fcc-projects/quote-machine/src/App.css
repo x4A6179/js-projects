@@ -1,6 +1,6 @@
 .App {
-  background: rgb(179,215,229);
-  background: linear-gradient(149deg, rgba(179,215,229,1) 15%, rgba(180,176,238,1) 35%, rgba(179,215,229,1) 65%, rgba(180,176,238,1) 80%);
+  background: rgb(133,128,178);
+  background: linear-gradient(127deg, rgba(133,128,178,1) 25%, rgba(145,142,167,1) 35%, rgba(133,128,178,1) 50%, rgba(145,142,167,1) 65%, rgba(133,128,178,1) 75%);
 }
 .App-header {
   background: linear-gradient(360deg, rgba(179, 149, 183, 1) 40%, rgba(143, 159, 246, 1) 100%);
