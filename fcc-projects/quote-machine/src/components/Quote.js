@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 //import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { ethers } from 'ethers';
+import { useWeb3React } from '@web3-react/core';
 import './fontawesome';
 import './Quote.css';
 
 const Quote = () => {
 
   const [quote, setQuote] = useState(quotes[Math.floor(Math.random() * quotes.length)]);
+  const { active, account, library, activate, deactivate } = useWeb3React();
 
   const randomQuote = () => {
     return quotes[Math.floor(Math.random() * quotes.length)]
@@ -20,6 +22,12 @@ const Quote = () => {
       newRandom = randomQuote();
     }
     setQuote(newRandom);
+  }
+
+  function callContract() {
+    return (active
+    ? console.log(account)
+    : console.log("nope"))
   }
 
     return(
